@@ -1,0 +1,102 @@
+/* Background */
+
+.bg-light {
+  background-color: #E5E5E5 !important;
+}
+
+.page-section {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+
+.img-col-thumbnail {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  max-width: 25%;
+  max-height: 25%;
+  height: auto;
+}
+
+.main_row {
+	display: flex;
+  	flex-wrap: wrap;
+  	margin-right: -1.5rem;
+  	margin-left: -1.5rem;
+  	margin-bottom: 1.5rem;
+	/*height: 100px;*/
+}
+
+
+/* Heading */
+
+.container {
+  max-width: 800px;
+  /*
+  padding-right: 5rem;
+  padding-left: 5rem;
+  */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 2rem;
+}
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+  text-align: left;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+  text-align: left;
+}
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+.masthead a {
+  color: #d4f3ef; 
+}
+
+.divider-custom-left {
+  margin: 0.5rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.divider-custom-left .divider-custom-line {
+  width: 100%;
+  max-width: 10rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+.divider-custom-left.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+.divider-custom-left.divider-light .divider-custom-icon {
+  color: #fff !important;
+}
+
+
+/* Portfolio section */
+
+.portfolio p {
+  font-size: 1.1rem;
+}
+
+
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
